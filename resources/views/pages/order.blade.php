@@ -49,7 +49,7 @@
                         <label for="MOP">Mode of Payment</label>
                     </div>
                     <div class="message-box">
-                        <textarea placeholder="Order: " name="productPurchased"></textarea>
+                        <textarea placeholder="Product Name - No. of purchased  " name="productPurchased"></textarea>
                         <label for="productPurchased">Enter your order/s here</label>
                     </div>
                     <div class="input-box">
