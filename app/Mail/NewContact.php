@@ -37,8 +37,8 @@ class NewContact extends Mailable //OrderShipped
     public function build()
     {
         return $this
-        ->from('juliezaraper@gmail.com', 'CABELLA')
-        ->to('juliezaraper@gmail.com')
+        ->from('cabellaph@gmail.com', 'CABELLA')
+        ->to('cabellaph@gmail.com')
         ->subject('NEW CONTACT')
         ->markdown('emails.newContact')->with(['contact', $this->contact]); //order_Shipped
     }
