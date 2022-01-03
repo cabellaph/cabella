@@ -3,7 +3,6 @@
 @component('mail::panel')
     # Email: {{$contact->contactEmail}}
     # Full Name: {{$contact->contactName}}
-    # Address: {{$contact->customerAddress}}
     # Subject: {{$contact->contactSubject}}
     # Message: {{$contact->message}}
 
